@@ -1,3 +1,7 @@
+import requests
+
+r = requests.get('https://api.github.com/events')
+
 def main():
     print("Welcome to BusBoard.")
 
